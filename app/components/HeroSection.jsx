@@ -5,7 +5,6 @@ import { TypeAnimation } from "react-type-animation";
 import { inter } from "./../fonts.ts";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Link as ScrollLink } from "react-scroll";
 
 const HeroSection = () => {
   return (
@@ -50,9 +49,9 @@ const HeroSection = () => {
               className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white 
               bg-gradient-to-br from-yellow-500 via-purple-500 to-blue-500 hover:bg-slate-200 text-white"
             >
-              <ScrollLink to="contact" smooth={true} offset={-70} duration={600}>
+              <Link href="#contact">
                 Hire Me
-              </ScrollLink>
+              </Link>
             </button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full  bg-gradient-to-br from-yellow-500 via-purple-500 to-blue-500  mr-4 bg-transparent hover:bg-slate-800  mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">

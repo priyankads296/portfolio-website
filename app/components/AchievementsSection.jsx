@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import dynamic from "next/dynamic";
-import AnimatedNumber from "react-animated-numbers";
 
 const AnimatedNumbers = dynamic(() => import("react-animated-numbers"), {
   ssr: false,       //server side rendering

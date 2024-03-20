@@ -22,7 +22,7 @@ const HeroSection = () => {
             lg:leading-normal font-extrabold"
           >
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-yellow-500 via-purple-500 to-blue-500">
-              Hello, I'm{" "}
+              Hello, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
